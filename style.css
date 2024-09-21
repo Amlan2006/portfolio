@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+@media screen and (max-width:738px) {
+     img{
+        display: none;
+     }
+     
+    nav{
+        flex-direction: column;
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+        /* align-items: center;
+        justify-content: center; */
+    }
+   
+}
+
+    body {
+font-family: 'Poppins', sans-serif;
+
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 10vh;
+    flex-wrap: wrap;
+
+}
+nav h2:hover{
+    color: rgb(255, 124, 0);
+}
+ul{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+ul a{
+    text-decoration: none;
+    color: white;
+}
+ul a:hover{
+color: rgb(255, 124, 0);
+}
+.intro{
+    height: 80vh;
+    background: radial-gradient(circle at -8.9% 51.2%, rgb(255, 124, 0) 0%, rgb(255, 124, 0) 15.9%, rgb(255, 163, 77) 15.9%, rgb(255, 163, 77) 24.4%, rgb(19, 30, 37) 24.5%, rgb(19, 30, 37) 66%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* width: auto; */
+
+}
+.intro p{
+    width: 50%;
+    color: white;
+
+}
+.intro p:hover{
+    color:rgb(255, 124, 0) ;
+}
+.main{
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    /* height: 50vh; */
+    /* flex-direction: column; */
+    /* background-color: brown; */
+}
+.htmlclass{
+    box-shadow: 5px 5px 5px rgb(255, 124, 0);
+    height: 40vh;
+    width: 50vh;
+    margin-top: 4vh;
+}
+.cssclass{
+    box-shadow: 5px 5px 5px rgb(255, 124, 0);
+    height: 40vh;
+    width: 50vh;
+    margin-top: 4vh;
+}
+.javascriptclass{
+    box-shadow: 5px 5px 5px rgb(255, 124, 0);
+    height: 40vh;
+    width: 50vh;
+    margin-top: 4vh;
+}
+button{
+    background-color:rgb(255, 124, 0) ;
+    margin-top: 4vh;
+    height: 10vh;
+    width: 20vh;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    align-content: center;
+}
+button a{
+    color: white;
+    text-decoration: none;
+}
