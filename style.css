@@ -18,6 +18,20 @@
         /* align-items: center;
         justify-content: center; */
     }
+    .htmlclass{
+        height: 80%;
+        width: 80%;
+    }
+    .cssclass{
+        height: 50%;
+        width: 50%;
+       
+    }
+    .javascriptclass{
+        height: 80%;
+        width: 80%;
+    }
+
    
 }
 
@@ -74,9 +88,12 @@ color: rgb(255, 124, 0);
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    padding: 10vh;
+    text-align: center;
     /* height: 50vh; */
     /* flex-direction: column; */
     /* background-color: brown; */
+    width: auto;
 }
 .htmlclass{
     box-shadow: 5px 5px 5px rgb(255, 124, 0);
@@ -109,4 +126,19 @@ button{
 button a{
     color: white;
     text-decoration: none;
+}
+.htmlclass:hover{
+    background-color: rgb(255, 124, 0);
+    color: white;
+    transition-duration: 0.5s;
+}
+.cssclass:hover{
+    background-color: rgb(255, 124, 0);
+    color: white;
+    transition-duration: 0.5s;
+}
+.javascriptclass:hover{
+    background-color: rgb(255, 124, 0);
+    color: white;
+    transition-duration: 0.5s;
 }
